@@ -133,7 +133,9 @@ python3 cage-challenge-1-updated/evaluation_blue.py
 
 ### For the trained red agents
 
-Because of compatibility issues, please comment all lines associated with the `DefenceEvade` action in the following files:
+Because of compatibility issues, 
+
+please comment all lines associated with the `DefenceEvade` action in the following files:
 
 - `cage-challenge-1/CybORG/CybORG/Agents/SimpleAgents/Covert.py`: Line 4
 
@@ -164,7 +166,9 @@ All evaluation results will be stored in `cage-challenge-1/CybORG/CybORG/Evaluat
 
 ### To train blue subagents
 
-Make sure that `adversary_name` and environment `CybORG_Blue_Agent` in  `cage-challenge-1-updated/train_subagent.py` is correct
+Make sure that `adversary_name` and environment `CybORG_Blue_Agent` 
+
+in  `cage-challenge-1-updated/train_subagent.py` is correct
 
 Optional: change the against red agent in `cage-challenge-1-updated/agents/hierachy_agents/CybORG_Blue_Agent.py`
 
@@ -190,7 +194,11 @@ python3 cage-challenge-1-updated/train_controller.py
 
 Similarly, solve the compatibility issues as before
 
-Make sure that `defender_name` and environment `CybORG_Red_Agent` in  `cage-challenge-1-updated/train_subagent.py` is correct
+Make sure that `defender_name` and environment `CybORG_Red_Agent` 
+
+in  `cage-challenge-1-updated/train_subagent.py` is correct
+
+Remove the stop condition in `cage-challenge-1-updated/train_subagent.py` Line 188
 
 Optional: change the against blue agent in `cage-challenge-1-updated/agents/hierachy_agents/CybORG_Red_Agent.py`
 
