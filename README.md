@@ -33,7 +33,7 @@ Thanks for the help from project supervisors: Dr. Vasilios Mavroudis, Dr. Chris 
     pip install -r cage-challenge-1-updated/requirements.txt
     ```
 
-5. Before running, make sure all dependencies are correct, and then start ray
+5. Before running, make sure all dependencies are correct, and then start ray.
 
     ```
     ray start --head --address localhost:6379 --redis-password "5241590000000000"
@@ -123,7 +123,7 @@ python3 cage-challenge-1-unmodified/evaluation_hierarchy.py
 
 ### For the trained blue agents (Updated)
 
-Optional: select the probability of each red agents in `cage-challenge-1-updated/evaluation_red.py` Line 86
+Optional: select the probability of each red agents in `cage-challenge-1-updated/evaluation_blue.py` Line 86
 
 Run command
 
