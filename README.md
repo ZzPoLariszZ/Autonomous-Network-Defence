@@ -224,4 +224,4 @@ Change paths in the following files to locate the trained agents
 
 - `cage-challenge-1-updated/agents/hierachy_agents/load_red_agent.py`
         
-- `cage-challenge-1-updated/agents/hierachy_agents/load_blue_agent.py`:
+- `cage-challenge-1-updated/agents/hierachy_agents/load_blue_agent.py`
